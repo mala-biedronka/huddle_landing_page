@@ -1,2 +1,32 @@
+body {
+    margin: 0;
+    height: 750px;
+    background-image: url("../images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans', monospace;
+    color: #fff;
+}
+.wrapper {
+    max-width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.main-text {
+    width: 600px;
+}
+.mockups {
+    width: 600px;
+    margin-right: 20px;
+}
+.mockups-img {
+    width: 100%;
+}
+.title {
+    font-family: 'Poppins', monospace;
+}
+
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }

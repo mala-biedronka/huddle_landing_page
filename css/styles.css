@@ -19,10 +19,6 @@ header {
     display: flex;
     justify-content: space-between;
 }
-.main-text-container {
-    width: 45%;
-    font-size: 1.2rem;
-}
 .mockups {
     width: 55%;
     margin-right: 50px;
@@ -30,11 +26,14 @@ header {
 .mockups-img {
     width: 100%;
 }
+.main-text-container {
+    width: 45%;
+    font-size: 1.2rem;
+}
 .title {
     margin-top: 50px;
     font-family: 'Poppins', monospace;
 }
-
 .button-link {
     text-decoration: none;
 }
@@ -75,24 +74,23 @@ header {
     .wrapper {
         text-align: center;
     }
+    header {
+        margin: 2% 0 3% 13%;
+        text-align: left;
+    }
     .logo-img {
         width: 40%;
-        padding: 20px 0 50px 20px;
-        float: left;
     }
     .content-container {
         margin: 0 30px;
         display: block;
     }
-    .mockups {
+    .mockups,
+    .main-text-container {
         width: 100%;
-        margin-right: 50px;
     }
     .mockups-img {
         width: 80%;
-    }
-    .main-text-container {
-        width: 100%;
     }
     .button {
         margin: 0 auto;
